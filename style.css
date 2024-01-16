@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    margin-bottom: 20px;
+
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.images img:not(:first-child){
+    margin-left: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 95px;
+    padding: 10px;
+    background-color: red;
+
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+
+    border-radius: 12px;
+}
